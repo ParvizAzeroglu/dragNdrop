@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+        color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .app-container {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+      }
+
+      .draggable {
+        height: 100px;
+        width: 100px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.28);
+      }
+
+      .colorA {
+        background-color: #f3d3e7;
+      }
+
+      .colorB {
+        background-color: #b2dfbf;
+      }
+
+      .colorC {
+        background-color: #a9a8b3;
+      }
+
+      .container {
+        width: 350px;
+        height: 400px;
+        background-color: #f9f9f9;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.28);
+        flex-flow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="draggable colorA"></div>
+      <div class="draggable colorB"></div>
+      <div class="draggable colorC"></div>
+      <div class="container"></div>
+    </div>
+
+    <script>
+      var x = "lorem";
+    </script>
+  </body>
+</html>
